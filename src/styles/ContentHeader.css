@@ -1,0 +1,13 @@
+.contentHeader {
+  background: rgb(118, 122, 249);
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  color: white;
+  font-size: 25px;
+  padding-left: 2%;
+}

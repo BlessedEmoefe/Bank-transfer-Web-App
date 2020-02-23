@@ -1,0 +1,59 @@
+.balance {
+  width: 95%;
+  padding: 20px 2.5%;
+  border-radius: 5px;
+  height: 160px;
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.balanceHeading {
+  width: 100%;
+  /* background: teal; */
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.topic {
+  font-size: 20px;
+  font-weight: thin;
+}
+.balanceBody {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background: hotpink; */
+}
+.balanceBoxContainers {
+  min-width: 14%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.balancetoptext {
+  color: rgb(29, 29, 29);
+  font-size: 16px;
+  border-bottom: 2px solid grey;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  height: 100%;
+}
+.balancebottomtext {
+  color: rgb(29, 29, 29);
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+}

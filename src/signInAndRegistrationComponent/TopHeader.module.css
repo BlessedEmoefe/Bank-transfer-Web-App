@@ -1,0 +1,53 @@
+.topHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.logo {
+  width: 13%;
+  height: 40%;
+}
+.headerInfoContainer {
+  width: 48%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerInfo {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  font-size: 20px;
+  color: blue;
+}
+.text {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.topText {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+}
+.bottomText {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+}

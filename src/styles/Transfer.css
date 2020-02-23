@@ -1,0 +1,83 @@
+.transfer {
+  width: 95%;
+  height: 700px;
+  padding: 20px 2.5%;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.TransferHeading {
+  width: 100%;
+  /* background: teal; */
+  height: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Transfertopic {
+  font-size: 20px;
+  font-weight: thin;
+  /* background: blue; */
+}
+.TransferBody {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: yellow; */
+}
+.form {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.TransferField {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+label {
+  width: 20%;
+}
+textarea {
+  margin-left: 10%;
+
+  border-radius: 5px;
+}
+.submit {
+  background: rgb(55, 56, 109);
+  outline: none;
+  font-size: 16px;
+  height: 50px;
+  width: 10%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 62%;
+  transition: 1s;
+}
+
+.submit:hover {
+  transition: 1s;
+  background: rgb(118, 122, 249);
+  outline: none;
+  font-size: 18px;
+  height: 70px;
+  width: 20%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 62%;
+}
+select {
+  width: 50%;
+  height: 35px;
+}

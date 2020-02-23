@@ -1,0 +1,84 @@
+.dashBoardInfo {
+  width: 100%;
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.InfoBoxForDetails {
+  width: 28%;
+  padding-left: 2%;
+  min-height: 240px;
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+.InfoBoxes {
+  width: 19%;
+  padding-right: 1%;
+  padding-left: 1%;
+  min-height: 240px;
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+.text1 {
+  font-size: 17px;
+  height: 20%;
+  color: rgb(35, 35, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 25px;
+  height: 50%;
+  width: 100%;
+}
+.icons {
+  padding-right: 20%;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.text3 {
+  font-size: 17px;
+  height: 20%;
+  color: rgb(35, 35, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.info {
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoQuestions {
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  color: rgb(29, 28, 28);
+}
+.details {
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}

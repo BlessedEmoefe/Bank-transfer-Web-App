@@ -1,0 +1,62 @@
+.viewprofile {
+  width: 98%;
+  padding: 20px 1%;
+  border-radius: 5px;
+  height: 160px;
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.ViewHeading {
+  width: 100%;
+  /* background: teal; */
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.topic {
+  font-size: 20px;
+  font-weight: thin;
+}
+.ViewBody {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: hotpink; */
+}
+.ViewBoxContainers {
+  min-width: 11%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.viewtoptext {
+  color: rgb(29, 29, 29);
+  font-size: 16px;
+  border-bottom: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.viewbottomtext {
+  color: rgb(29, 29, 29);
+  font-size: 13px;
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

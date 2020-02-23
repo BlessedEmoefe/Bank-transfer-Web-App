@@ -1,0 +1,44 @@
+.firstFooter {
+  width: 100%;
+  height: 130px;
+  background: rgb(241, 99, 60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstfootertext {
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textone {
+  font-size: 20px;
+}
+.texttwo {
+  font-size: 30px;
+}
+.FooterButton {
+  color: rgb(52, 152, 219);
+  height: 50px;
+  width: 14%;
+  padding: 0 2%;
+  margin-left: 5%;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: white;
+  transition: 0.5s;
+}
+.arrowIcon {
+  font-size: 19px;
+}
+.FooterButton:hover {
+  color: white;
+  background: rgb(48, 47, 47);
+  transition: 0.5s;
+}
