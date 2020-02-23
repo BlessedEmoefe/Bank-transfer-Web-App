@@ -1,0 +1,17 @@
+.buttonComponent {
+  width: 19%;
+  height: 55px;
+  border: 1px solid transparent;
+  background: rgb(241, 99, 60);
+  border-radius: 3px;
+  font-size: 17px;
+  color: white;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.buttonComponent:hover {
+  border: 1px solid transparent;
+  background: rgb(49, 48, 48);
+  color: white;
+  transition: 0.5s;
+}

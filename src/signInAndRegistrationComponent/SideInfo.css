@@ -1,15 +1,3 @@
-.Content {
-  height: 230px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-}
-.containerOne {
-  width: 45%;
-  background: red;
-  height: 200px;
-}
 .containerTwo {
   width: 25%;
   height: 200px;

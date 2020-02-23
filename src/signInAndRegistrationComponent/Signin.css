@@ -1,0 +1,11 @@
+.Content {
+  /* height: 230px; */
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.containerOne {
+  width: 45%;
+}
