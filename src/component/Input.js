@@ -4,7 +4,7 @@ import "../styles/Input.css";
 class Input extends Component {
   state = {};
   render() {
-    const { placeholder, type, value } = this.props;
+    const { placeholder, type} = this.props;
     return <input className="input" placeholder={placeholder} type={type} />;
   }
 }

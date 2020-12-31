@@ -5,7 +5,6 @@ import FirstMessage from "./FirstMessage";
 import Footer from "./Footer";
 import Input from "./Input";
 import Button from "./Button";
-import SideInfo from "./SideInfo";
 
 class AdminSignup extends Component {
   state = {};

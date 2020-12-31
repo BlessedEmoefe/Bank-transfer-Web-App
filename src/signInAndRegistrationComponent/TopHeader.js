@@ -7,7 +7,7 @@ const TopHeader = () => {
   return (
     <div className={styles.topHeader}>
       <div className={styles.logo}>
-        <img src={newLogo} height="100%" width="100%" />
+        <img src={newLogo} height="100%" width="100%" alt=""/>
       </div>
       <div className={styles.headerInfoContainer}>
         <div className={styles.headerInfo}>

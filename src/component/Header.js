@@ -9,7 +9,7 @@ class Header extends Component {
       <div className="Header">
         <div className="leftSection">
           <div className="logoContainer">
-            <img src={Logo} className="logo" />
+            <img src={Logo} className="logo" alt="" />
             <p className="logoText">Pure Guaranty</p>
           </div>
           <div className="Menu-icon">

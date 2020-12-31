@@ -1,4 +1,4 @@
-import { Switch, Route, Router, BrowserRouter } from "react-router-dom";
+import { Switch, Route,BrowserRouter } from "react-router-dom";
 import React from "react";
 import ViewProfile from "./component/ViewProfile";
 import ViewTransfer from "./component/ViewTransfer";
@@ -7,11 +7,13 @@ import Balance from "./component/Balance";
 import Signin from "./signInAndRegistrationComponent/Signin";
 import Signup from "./signInAndRegistrationComponent/Signup";
 import AdminSignup from "./signInAndRegistrationComponent/AdminSignup";
+import FullPage from "./pages/FullPage" 
 
 const Routers = () => {
   return (
     <BrowserRouter>
       <Switch style={{ fontFamily: "'Roboto',sans-serif" }}>
+      <Route path="/" exact component={FullPage} />
         <Route path="/balance" exact component={Balance} />
         <Route path="/transfer" component={Transfer} />
         <Route path="/viewprofile" component={ViewProfile} />

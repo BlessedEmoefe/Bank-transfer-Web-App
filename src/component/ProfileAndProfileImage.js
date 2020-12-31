@@ -19,6 +19,7 @@ class ProfileAndProfileImage extends Component {
           src={ProfileImage}
           className="profileImage"
           style={{ height: height, width: width }}
+          alt=""
         />
         <div
           className="ProfileNameAndDropdown"

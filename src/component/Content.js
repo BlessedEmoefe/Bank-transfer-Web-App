@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 import "../styles/Content.css";
-import Balance from "./Balance";
 import ContentHeader from "./ContentHeader";
 import Footer from "./Footer";
 import DashBoardInfo from "./DashBoardInfo";
-import Transfer from "./Transfer";
-import ViewProfile from "./ViewProfile";
-import ViewTransfer from "./ViewTransfer";
 
 class Content extends Component {
   handleNavigationClick = () => {};

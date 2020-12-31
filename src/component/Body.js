@@ -3,9 +3,6 @@ import "../styles/Body.css";
 import Profile from "./Profile";
 import Content from "./Content";
 import Balance from "./Balance";
-import ContentHeader from "./ContentHeader";
-import Footer from "./Footer";
-import DashBoardInfo from "./DashBoardInfo";
 import Transfer from "./Transfer";
 import ViewProfile from "./ViewProfile";
 import ViewTransfer from "./ViewTransfer";
@@ -20,20 +17,20 @@ class Body extends Component {
   };
 
   handleToggleDisplay = () => {
-    if (this.state.title == "home") return <Home />;
-    else if (this.state.title == "balance") return <Balance />;
-    else if (this.state.title == "transfer") return <Transfer />;
-    else if (this.state.title == "viewprofile") return <ViewProfile />;
-    else if (this.state.title == "viewtransfer") return <ViewTransfer />;
+    if (this.state.title === "home") return <Home />;
+    else if (this.state.title === "balance") return <Balance />;
+    else if (this.state.title === "transfer") return <Transfer />;
+    else if (this.state.title === "viewprofile") return <ViewProfile />;
+    else if (this.state.title === "viewtransfer") return <ViewTransfer />;
     else return <Balance />;
   };
 
   handleToggleHeaderText = () => {
-    if (this.state.title == "home") return "Home";
-    else if (this.state.title == "balance") return "Balance";
-    else if (this.state.title == "transfer") return "Transfer";
-    else if (this.state.title == "viewprofile") return "ViewProfile";
-    else if (this.state.title == "viewtransfer") return "ViewTransfer";
+    if (this.state.title === "home") return "Home";
+    else if (this.state.title === "balance") return "Balance";
+    else if (this.state.title === "transfer") return "Transfer";
+    else if (this.state.title === "viewprofile") return "ViewProfile";
+    else if (this.state.title === "viewtransfer") return "ViewTransfer";
     else return "Balance";
   };
   render() {
