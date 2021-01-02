@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Input from "./Input";
 import Button from "./Button";
 
+
 class AdminSignup extends Component {
   state = {};
   render() {
