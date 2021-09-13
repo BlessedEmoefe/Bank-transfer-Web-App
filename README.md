@@ -1,68 +1,94 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Contributions
 
-## Available Scripts
+Welcome to the EmBED web application project, as a people of excellence we believe in systematic process and unified
+ approach to solving bigger challenges. Below are the steps you need to take to make contributions to this project.
 
-In the project directory, you can run:
+## How to contribute:
 
-### `yarn start`
+- Pick an issue from the `development` issues board. If there is none with your name yet, create one and assign
+ yourself to it.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Create a branch with the issue name and work from there.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Always pull from develop.
 
-### `yarn test`
+- Create branch from develop.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Propose a **Pull Request** to `develop` branch. Always ensure you keep your local branch updated by pulling the
+ `develop` branch.
 
-### `yarn build`
+- Branch should have name of issue no. as well as a short description of the issue.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Commit messages should be descriptive:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  ```
+    fix: remove red border from button
+    feature: add button to user-card
+    refactor: ...
+    chore: update react to v2...
+  ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- One commit per PR
 
-### `yarn eject`
+- Your PR description should follow this syntax:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ```
+      Worked on ...
+  
+      This closes #2 
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> NB: The `#2` represents the issue number you have worked on.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Proposing Enhancements & Changes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you have noticed a bug, glitch or perceive an improvement, create issues in the `suggestion` tab.
 
-## Learn More
+![suggest new features](./assets/images/suggest-new.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Suggestions that have been agreed upon will be moved to the `features` tab.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Commenting
 
-### Code Splitting
+Use comments in your code regularly to explain unique concepts. Your comments should be short and descriptive. Use
+ comments above the code lines and not *inline*
+ 
+  ```
+    {/* This will hold all courses for visitors */}
+    <CourseCategories />
+    
+    {/* Testimonials */}
+    <section>
+      ...
+    </section>
+    ...
+   ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+**DO NOT DO THIS**
 
-### Analyzing the Bundle Size
+   ```
+    <CourseCategories /> {/* This will hold all courses for visitors */}
+    
+    <section> {/* Testimonials */}
+      ...
+    </section>
+    ...
+   ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## IDE Settings
 
-### Making a Progressive Web App
+You may choose whatever IDE or code editor you prefer, we however encourage you to ignore your workspace settings so
+ as to not ruin that of others.
+ 
+ ```.gitignore
+   .vscode
+   .idea
+   .atom
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Folder Structure
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+We expect your folder structure to follow this simple flow. All resources needed to compose a modularized unit should
+ be housed as one module.
+ 
+ Also observe naming conventions and name your files appropriately.
